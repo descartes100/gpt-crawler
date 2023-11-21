@@ -22,9 +22,9 @@ type Config = {
 };
 
 export const config: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  selector: `.docs-builder-container`,
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://docs.soliditylang.org/en/v0.8.23/units-and-global-variables.html",
+  match: "https://docs.soliditylang.org/en/v0.8.23/**",
+  selector: `.wy-body-for-nav`,
+  maxPagesToCrawl: 10,
+  outputFileName: "output_solidity.json",
 };
